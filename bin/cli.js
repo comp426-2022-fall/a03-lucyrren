@@ -9,6 +9,8 @@ let args = minimist(process.argv.slice(2));
 let sides = 6;
 let dice = 2;
 let rolls = 1;
+
+//sets side variable if passed one
 if(args.sides && args.sides > 0){
     sides = args.sides;
 }
