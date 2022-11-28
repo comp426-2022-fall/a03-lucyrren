@@ -18,6 +18,7 @@ if(args.sides && args.sides > 0){
 if(args.dice && args.dice > 0){
     dice = args.dice;
 }
+//sets rolls variable if passed one
 if(args.rolls && args.rolls > 0){
     rolls = args.rolls;
 }
