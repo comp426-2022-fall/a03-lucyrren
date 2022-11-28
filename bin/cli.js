@@ -2,8 +2,10 @@
 import minimist from 'minimist';
 import { roll } from "../lib/roll.js"
 
+//parse arguments
 let args = minimist(process.argv.slice(2));
 
+//set default side, dice, roll values
 let sides = 6;
 let dice = 2;
 let rolls = 1;
