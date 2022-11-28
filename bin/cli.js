@@ -23,4 +23,5 @@ if(args.rolls && args.rolls > 0){
     rolls = args.rolls;
 }
 
+//return the JSON results
 console.log(JSON.stringify(roll(sides, dice, rolls)));
