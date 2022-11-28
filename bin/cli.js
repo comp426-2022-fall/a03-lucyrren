@@ -14,6 +14,7 @@ let rolls = 1;
 if(args.sides && args.sides > 0){
     sides = args.sides;
 }
+//sets dice variable if passed one
 if(args.dice && args.dice > 0){
     dice = args.dice;
 }
